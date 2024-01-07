@@ -1,0 +1,205 @@
+{
+  "title": "Qual tipo de hacker você seria?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Se você pudesse escolher um superpoder, qual seria?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Invisibilidade",
+          "alias": "D"
+        },
+        {
+          "id": 2,
+          "name": "Controle mental",
+          "alias": "C"
+        },
+        {
+          "id": 3,
+          "name": "Superforça",
+          "alias": "A"
+        },
+        {
+          "id": 4,
+          "name": "Telecinese",
+          "alias": "B"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual ambiente você prefere para trabalhar?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Ambiente silencioso e isolado",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Ambiente movimentado e colaborativo",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Em casa, sem interrupções",
+          "alias": "C"
+        },
+        {
+          "id": 4,
+          "name": "Cafés ou espaços públicos",
+          "alias": "D"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Escolha uma habilidade especial:",
+      "options": [
+        {
+          "id": 1,
+          "name": "Infiltrar-se sem ser detectado",
+          "alias": "C"
+        },
+        {
+          "id": 2,
+          "name": "Analisar e quebrar códigos",
+          "alias": "D"
+        },
+        {
+          "id": 3,
+          "name": "Manipular informações sem deixar rastros",
+          "alias": "B"
+        },
+        {
+          "id": 4,
+          "name": "Explorar sistemas complexos",
+          "alias": "A"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Como você prefere resolver problemas?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Pensamento lógico e estratégico",
+          "alias": "D"
+        },
+        {
+          "id": 2,
+          "name": "Criatividade e intuição",
+          "alias": "A"
+        },
+        {
+          "id": 3,
+          "name": "Colaboração em equipe",
+          "alias": "B"
+        },
+        {
+          "id": 4,
+          "name": "Independência e autonomia",
+          "alias": "C"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Qual é o seu objetivo ao utilizar suas habilidades?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Proteger a segurança digital",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Explorar e aprender sobre sistemas",
+          "alias": "D"
+        },
+        {
+          "id": 3,
+          "name": "Promover justiça e causas sociais",
+          "alias": "B"
+        },
+        {
+          "id": 4,
+          "name": "Alcançar objetivos pessoais ou financeiros",
+          "alias": "C"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Qual área você mais se interessa?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Segurança da informação",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Desenvolvimento de software",
+          "alias": "D"
+        },
+        {
+          "id": 3,
+          "name": "Engenharia reversa",
+          "alias": "C"
+        },
+        {
+          "id": 4,
+          "name": "Análise de dados e inteligência artificial",
+          "alias": "B"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Como você lida com desafios éticos?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Seguir estritamente um código ético",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Avaliar a situação caso a caso",
+          "alias": "B"
+        },
+        {
+          "id": 3,
+          "name": "Priorizar o cumprimento da missão, mesmo se controverso",
+          "alias": "D"
+        },
+        {
+          "id": 4,
+          "name": "Não existe ética no meu vocabulário",
+          "alias": "C"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "A": {
+      "label": "Você muito provavelmente seria um Hacker Ético (White Hat)!",
+      "description": "Especialistas em segurança que usam suas habilidades para proteger sistemas e redes. Trabalham de maneira ética e legal, identificando vulnerabilidades e fortalecendo a segurança."
+    },
+    "B": {
+      "label": "Você muito provavelmente seria um Hacktivista!",
+      "description": "Usam suas habilidades para promover causas sociais ou políticas, realizando atividades ilegais para expor informações prejudiciais ou apoiar uma causa específica."
+    },
+    "C": {
+      "label": "Você muito provavelmente seria um Hacker Malicioso (Black Hat)",
+      "description": "Realizam atividades ilegais, como roubo de dados, ataques a sistemas e redes, visando ganhos pessoais ou econômicos."
+    },
+    "D": {
+      "label": "Você muito provavelmente seria um Hacker Cinza (Grey Hat)",
+      "description": "Têm intenções ambíguas, realizando atividades ilegais, mas muitas vezes notificam a organização afetada e oferecem ajuda para corrigir as vulnerabilidades em troca de compensação ou reconhecimento."
+    }
+  }
+}
