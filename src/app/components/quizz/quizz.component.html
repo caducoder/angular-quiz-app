@@ -1,18 +1,18 @@
 <div class="text-white w-4/5 mx-auto">
   <div class="flex flex-col justify-center items-center mb-3">
     <img src="../../../assets/img/cibertest_logo.png" alt="" class="w-[300px]">
-    <h1 class="text-3xl font-bold text-center mt-5">Titulo</h1>
+    <h1 class="text-3xl font-bold text-center mt-5">{{title}}</h1>
   </div>
-  <div class="flex justify-center items-center border rounded-lg bg-lime border-dark-cyan h-[200px]">
-    <h3 class="font-bold text-xl">Questão selecionada</h3>
+  <div *ngIf="!finished" class="flex justify-center items-center border rounded-lg bg-dark-cyan border-lime h-[200px]">
+    <h3 class="font-bold text-xl drop-shadow">{{questionSelected.question}}</h3>
   </div>
-  <div class="flex flex-wrap justify-center mx-auto my-4">
-    <button
+  <div *ngIf="!finished" class="flex flex-wrap justify-center mx-auto my-4">
+    <button *ngFor="let option of questionSelected.options" (click)="selectOption(option.alias)"
       class="rounded-lg py-2 px-4 border cursor-pointer w-1/2 drop-shadow-md transition-all hover:bg-light-green hover:border-hidden active:relative active:top-0.5">
-      optioname
+      {{option.name}}
     </button>
   </div>
-  <div class="w-full h-[350px] bg-dark-cyan flex flex-col justify-center items-center">
+  <div *ngIf="finished" class="w-full h-[350px] bg-dark-cyan flex flex-col justify-center items-center">
     <h1 class="text-4xl font-bold">O Seu resultado é:</h1>
     <div>
       <p class=""><strong>Descrição:</strong></p>
