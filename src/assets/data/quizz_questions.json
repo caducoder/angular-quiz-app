@@ -187,19 +187,23 @@
   "results": {
     "A": {
       "label": "Você muito provavelmente seria um Hacker Ético (White Hat)!",
-      "description": "Especialistas em segurança que usam suas habilidades para proteger sistemas e redes. Trabalham de maneira ética e legal, identificando vulnerabilidades e fortalecendo a segurança."
+      "description": "Especialistas em segurança que usam suas habilidades para proteger sistemas e redes. Trabalham de maneira ética e legal, identificando vulnerabilidades e fortalecendo a segurança.",
+      "giph": "https://media.giphy.com/media/l378m383ScB09wPuw/giphy.gif"
     },
     "B": {
       "label": "Você muito provavelmente seria um Hacktivista!",
-      "description": "Usam suas habilidades para promover causas sociais ou políticas, realizando atividades ilegais para expor informações prejudiciais ou apoiar uma causa específica."
+      "description": "Usam suas habilidades para promover causas sociais ou políticas, realizando atividades ilegais para expor informações prejudiciais ou apoiar uma causa específica.",
+      "giph": "https://media.giphy.com/media/xTcnSWYZvafyhEACBO/giphy.gif"
     },
     "C": {
-      "label": "Você muito provavelmente seria um Hacker Malicioso (Black Hat)",
-      "description": "Realizam atividades ilegais, como roubo de dados, ataques a sistemas e redes, visando ganhos pessoais ou econômicos."
+      "label": "Você muito provavelmente seria um Hacker Malicioso (Black Hat)!",
+      "description": "Realizam atividades ilegais, como roubo de dados, ataques a sistemas e redes, visando ganhos pessoais ou econômicos.",
+      "giph": "https://media.giphy.com/media/3o7aD1pvuAyniVS1aM/giphy.gif"
     },
     "D": {
-      "label": "Você muito provavelmente seria um Hacker Cinza (Grey Hat)",
-      "description": "Têm intenções ambíguas, realizando atividades ilegais, mas muitas vezes notificam a organização afetada e oferecem ajuda para corrigir as vulnerabilidades em troca de compensação ou reconhecimento."
+      "label": "Você muito provavelmente seria um Hacker Cinza (Grey Hat)!",
+      "description": "Têm intenções ambíguas, realizando atividades ilegais, mas muitas vezes notificam a organização afetada e oferecem ajuda para corrigir as vulnerabilidades em troca de compensação ou reconhecimento.",
+      "giph": "https://media.giphy.com/media/JTTAjM197sku8MgrRa/giphy.gif"
     }
   }
 }

@@ -12,10 +12,12 @@
       {{option.name}}
     </button>
   </div>
-  <div *ngIf="finished" class="w-full h-[350px] bg-dark-cyan flex flex-col justify-center items-center">
+  <div *ngIf="finished" class="w-full h-[350px] bg-dark-cyan flex flex-col justify-center items-center p-6 rounded-lg">
+    <img src="{{hackerGiph}}" alt="" class="object-cover w-1/2 h-full ">
     <h1 class="text-4xl font-bold">O Seu resultado é:</h1>
+    <p class="text-xl font-semibold">{{hackerType}}</p>
     <div>
-      <p class=""><strong>Descrição:</strong></p>
+      <p class="text-center">{{hackerDescription}}</p>
 
     </div>
   </div>
