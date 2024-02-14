@@ -1,27 +1,44 @@
-# QuizApp
+<p align="center">
+<img alt="Cibertest" title="Cibertest" src="https://github.com/caducoder/angular-quiz-app/blob/main/public/angular-quiz-app-preview.png?raw=true" width="100%" />
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7.
+<br/>
 
-## Development server
+# Cibertest
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+> Cibertest | Revelando sua identidade Hacker
 
-## Code scaffolding
+## 💻 Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Quiz interativo para descobrir qual tipo de hacker você seria com base em algumas preferências.
 
-## Build
+### 📄 O que foi usado:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular
+- Typescript
+- TailwindCSS
 
-## Running unit tests
+### 🛠 Mão na massa:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> Você pode realizar o clone deste repositório!
 
-## Running end-to-end tests
+Clone o repositório:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`git clone https://github.com/caducoder/angular-quiz-app
+`
 
-## Further help
+### 💻 Executando o projeto 🚀
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Na raiz do projeto, execute os comandos:
+
+# Para instalar as dependências
+
+```bash
+  npm install
+```
+
+# Para startar o projeto utilize
+
+```bash
+  npm start
+```
